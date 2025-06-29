@@ -1,0 +1,98 @@
+/* ***********************************************
+****                Global CSS                ****
+*********************************************** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
+    background: #e2e2e2;
+    height: 100vh;
+    border: 1px solid #000;
+
+}
+ 
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+
+}
+
+.social-icon ul {}
+.social-icon ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 10px;
+    background: darkblue;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px 0px 15px 0px;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.social-icon ul li:hover {
+    border-radius: 0px 15px 0px 15px;
+}
+
+.social-icon-2 {
+
+}
+
+.social-icon-2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+    background: darkblue;
+    border: 1px solid darkblue;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.social-icon-2 ul li:hover {
+    background: rgba(0, 0, 139, 0);
+    border: 1px solid darkblue;
+    color: darkblue;
+}
+
+.social-icon-3 ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px;
+    border: 1px solid darkblue;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.social-icon-3 ul li:hover i {
+    transform: scale(1.5);
+    transition: all 0.8s ease;
+}
